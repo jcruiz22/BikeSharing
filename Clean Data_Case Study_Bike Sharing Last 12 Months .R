@@ -5,7 +5,7 @@ library(skimr)
 library(janitor)
 library(dplyr)
 
-#Importing the data of the past 12 months 
+#Importing the data of the past 12 months # Data Source https://divvy-tripdata.s3.amazonaws.com/index.html
 BikeTrips_Apr2020<-read_csv("CSV's Proyecto Final/202004-divvy-tripdata.csv")
 BikeTrips_May2020<-read_csv("CSV's Proyecto Final/202005-divvy-tripdata.csv")
 BikeTrips_Jun2020<-read_csv("CSV's Proyecto Final/202006-divvy-tripdata.csv")
